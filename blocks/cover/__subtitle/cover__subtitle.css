@@ -1,0 +1,14 @@
+.cover__subtitle {
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 0 auto;
+	width: 360px;
+	font-weight: 400;
+}
+
+.cover__subtitle:hover {
+	color: white;
+	z-index: 3;
+}

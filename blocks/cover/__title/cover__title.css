@@ -1,0 +1,18 @@
+.cover__title {
+	color: white;
+	font-size: 72px;
+	line-height: 76px;
+	text-align: center;
+	margin: 0 auto;
+	font-family: 'Inter-Bold', sans-serif;
+	width: 560px;
+	padding-top: 245px;
+	padding-bottom: 32px;
+	font-weight: 900;
+	
+}
+
+.cover__title:hover {
+	color: white;
+	z-index: 3;
+}

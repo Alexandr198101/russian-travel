@@ -1,0 +1,38 @@
+.cover {
+	box-sizing: border-box;
+	min-height: 748px;
+	background: url('../../../images/cover.jpg') center center/cover no-repeat;
+	margin: 92px 48px 92px 48px;
+	opacity: 0.8;
+}
+
+.cover:hover {
+	opacity: 0.3;
+}
+
+@media screen and (max-width: 1024px) {
+.cover {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	}
+}
+		
+@media screen and (max-width: 768px) {
+.cover {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	}
+}
+	
+@media screen and (max-width: 320px) {
+.cover {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	}
+}

@@ -1,0 +1,24 @@
+.link__wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+.link__wrapper {
+	margin-left: 32px;
+	}
+}
+		
+@media screen and (max-width: 768px) {
+.link__wrapper {
+	margin-left: 28px;
+	}
+}
+	
+@media screen and (max-width: 320px) {
+.link__wrapper {
+	margin-left: 16px;
+	}
+}

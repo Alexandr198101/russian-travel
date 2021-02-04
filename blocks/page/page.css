@@ -1,0 +1,9 @@
+.page {
+	box-sizing: border-box;
+	margin: 0 auto;
+	max-width: 1280px;
+	min-height: 100vh;
+	background-color: #2A2C2F;
+	font-family: 'Inter-Regular', sans-serif;3
+	position: relative;
+}
