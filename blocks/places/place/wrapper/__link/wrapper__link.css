@@ -1,4 +1,4 @@
-.place__link {
+.wrapper__link {
 font-size: 18px;
 line-height: 22px;
 text-decoration-line: underline;
@@ -7,6 +7,6 @@ cursor: pointer;
 font-weight: 400;
 }
 
-.place__link:hover {
+.wrapper__link:hover {
 	opacity: 0.8;
 }

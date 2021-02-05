@@ -32,12 +32,12 @@
 @import url(../blocks/places/place/place.css);
 
 @import url(../blocks/places/place/__title/place__title.css);
-@import url(../blocks/places/place/__wrapper/link__wrapper.css);
-@import url(../blocks/places/place/__wrapper/__url-heading/place__url-heading.css);
-@import url(../blocks/places/place/__wrapper/__link/place__link.css);
+@import url(../blocks/places/place/wrapper/wrapper.css);
+@import url(../blocks/places/place/wrapper/__url-heading/wrapper__url-heading.css);
+@import url(../blocks/places/place/wrapper/__link/wrapper__link.css);
 @import url(../blocks/places/place/__image/place__image.css);
-@import url(../blocks/places/place/__paragraph/text__paragraph.css);
-@import url(../blocks/places/place/__paragraph/__paragraph/place__paragraph.css);
+@import url(../blocks/places/place/description/description.css);
+@import url(../blocks/places/place/description/__paragraph/description__paragraph.css);
 
 /*------ Blocks cover ----------*/
 @import url(../blocks/cover/cover.css);

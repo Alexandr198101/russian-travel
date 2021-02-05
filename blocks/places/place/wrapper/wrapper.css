@@ -1,4 +1,4 @@
-.link__wrapper {
+.wrapper {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
@@ -6,19 +6,19 @@
 }
 
 @media screen and (max-width: 1024px) {
-.link__wrapper {
+.wrapper {
 	margin-left: 32px;
 	}
 }
 		
 @media screen and (max-width: 768px) {
-.link__wrapper {
+.wrapper {
 	margin-left: 28px;
 	}
 }
 	
 @media screen and (max-width: 320px) {
-.link__wrapper {
+.wrapper {
 	margin-left: 16px;
 	}
 }
