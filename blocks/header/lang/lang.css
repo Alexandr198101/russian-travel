@@ -4,3 +4,17 @@
 	right: 48px;
 	display: flex;
 }
+
+
+@media screen and (max-width: 768px) {
+	.lang {
+		right: 24px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.lang {
+		top: 30px;
+		right: 16px;
+	}
+}

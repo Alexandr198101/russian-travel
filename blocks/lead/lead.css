@@ -1,4 +1,26 @@
 .lead {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
 	margin: 136px 0 92px 0;
-	color: #FFFFFF;	
+	color: #FFFFFF;
+	position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+	.lead {
+		margin-top: 128px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.lead {
+		margin-bottom: 88px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.lead {
+		margin: 106px 0 64px 0;
+	}
 }
