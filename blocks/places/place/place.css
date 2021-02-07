@@ -1,31 +1,48 @@
 .place {
-	display: grid;
-	grid-template-columns: minmax(288px, auto) 1fr;
-	grid-template-rows: auto 460px;
-	grid-template-areas:
-	"title link"
-	"image paragraph";
-	column-gap: 48px;
-	row-gap: 40px;
-	margin-bottom: 80px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
+  /*grid-template-rows: auto 460px;*/
+  grid-template-areas: "title link"
+    "image paragraph";
+  column-gap: 48px;
+  row-gap: 40px;
+  margin-bottom: 80px;
 }
 
 .place__title {
-	grid-area: title;
+  grid-area: title;
 }
 
-.link__wrapper {
-	grid-area: link;
+.place__link {
+  grid-area: link;
 }
 
 .place__image {
-	grid-area: image;
+  grid-area: image;
 }
 
-.text-paragraph {
-	grid-area: paragraph;
+.place-paragraph {
+  grid-area: paragraph;
 }
 
 .place:nth-child(5) {
-	margin-bottom: 0;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    column-gap: 28px;
+    row-gap: 48px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    grid-template-columns: minmax(320px, 1fr);
+    grid-template-areas: "title"
+      "link"
+      "image"
+      "paragraph";
+  }
 }

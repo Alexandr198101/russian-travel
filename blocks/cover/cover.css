@@ -1,7 +1,6 @@
 .cover {
 	box-sizing: border-box;
-	min-height: 748px;
-	background: url('../../../images/cover.jpg') center center/cover no-repeat;
+	max-width: 1184px;
 	margin: 92px 48px 92px 48px;
 	opacity: 0.8;
 }
@@ -11,28 +10,22 @@
 }
 
 @media screen and (max-width: 1024px) {
-.cover {
-	margin: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: contain;
+	.cover {
+		margin: 92px 0 0 0;
+		max-width: 1024px;
 	}
 }
-		
+
 @media screen and (max-width: 768px) {
-.cover {
-	margin: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: contain;
+	.cover {
+		margin: 90px 0 0 0;
+		max-width: 768px;
 	}
 }
-	
+
 @media screen and (max-width: 320px) {
-.cover {
-	margin: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: contain;
+	.cover {
+		margin: 99px 0 0 0;
+		max-width: 320px;
 	}
 }
