@@ -1,4 +1,5 @@
-.lang {
+.header__lang {
+	width: 100px;
 	position: absolute;
 	top: 46px;
 	right: 48px;
@@ -7,13 +8,13 @@
 
 
 @media screen and (max-width: 768px) {
-	.lang {
+	.header__lang {
 		right: 24px;
 	}
 }
 
-@media screen and (max-width: 425px) {
-	.lang {
+@media screen and (max-width: 320px) {
+	.header__lang {
 		top: 30px;
 		right: 16px;
 	}

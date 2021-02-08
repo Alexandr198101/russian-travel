@@ -1,5 +1,6 @@
 .header {
+	margin: 0 auto;
 	position: relative;
 	display: flex;
-	height: 100%;
+	max-width: 1184px;
 }
