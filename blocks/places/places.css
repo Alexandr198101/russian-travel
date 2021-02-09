@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 	color: white;
 	margin: 92px 148px 0 148px;
-	max-width: 984px;
+	/*max-width: 984px;*/
 }
 
 @media screen and (max-width: 1024px) {
