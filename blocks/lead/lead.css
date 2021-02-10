@@ -1,10 +1,12 @@
 .lead {
+	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	margin: 136px 0 92px 0;
 	color: #FFFFFF;
 	position: relative;
+	max-width: 984px;
+	margin-top: 56px;
 }
 
 @media screen and (max-width: 1024px) {

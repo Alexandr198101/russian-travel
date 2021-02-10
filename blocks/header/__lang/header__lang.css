@@ -1,21 +1,6 @@
 .header__lang {
-	width: 100px;
-	position: absolute;
-	top: 46px;
-	right: 48px;
+	cursor: pointer;
 	display: flex;
-}
+	list-style-type: none;
 
-
-@media screen and (max-width: 768px) {
-	.header__lang {
-		right: 24px;
-	}
-}
-
-@media screen and (max-width: 320px) {
-	.header__lang {
-		top: 30px;
-		right: 16px;
-	}
 }
