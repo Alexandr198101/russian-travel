@@ -15,7 +15,7 @@
   position: relative;
 }
 
-.cover__link:hover::after {
+.cover__link::before {
   content: '';
   position: absolute;
   top: 0;
@@ -27,11 +27,11 @@
   z-index: 2;
 }
 
-/*
-.cover__link:hover::after {
+
+.cover__link:hover::before {
   opacity: 0.8;
 }
-*/
+
 @media screen and (max-width: 1024px) {
   .cover__link {
     max-width: 1024px;

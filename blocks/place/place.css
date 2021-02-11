@@ -9,22 +9,6 @@
   max-width: 984px;
 }
 
-.place__title {
-  grid-area: title;
-}
-
-.place__link {
-  grid-area: link;
-}
-
-.place__image {
-  grid-area: image;
-}
-
-.place-paragraph {
-  grid-area: paragraph;
-}
-
 .place:nth-child(5) {
   margin-bottom: 0;
 }
@@ -33,7 +17,6 @@
   .place {
     column-gap: 28px;
     row-gap: 48px;
-
   }
 }
 

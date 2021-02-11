@@ -10,3 +10,7 @@
 .place__link:hover {
   opacity: 0.8;
 }
+
+.place__link {
+  grid-area: link;
+}
