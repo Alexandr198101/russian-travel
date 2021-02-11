@@ -14,3 +14,9 @@
 .place__link {
   grid-area: link;
 }
+
+@media screen and (max-width: 320px) {
+  .place__link {
+    padding-left: 16px;
+  }
+}

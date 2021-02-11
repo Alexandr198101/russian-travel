@@ -1,16 +1,25 @@
 .place {
   margin: 0 auto;
   display: grid;
+  grid-template-columns: minmax(320px, 1fr);
   grid-template-areas: "title link"
     "image paragraph";
-  column-gap: 48px;
-  row-gap: 40px;
+  column-gap: 40px;
+  row-gap: 48px;
   margin-bottom: 80px;
   max-width: 984px;
 }
 
 .place:nth-child(5) {
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    grid-template-columns: minmax(320px, 1fr);
+    column-gap: 28px;
+    row-gap: 48px;
+  }
 }
 
 @media screen and (max-width: 768px) {
