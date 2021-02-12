@@ -1,7 +1,7 @@
 .place {
   margin: 0 auto;
   display: grid;
-  grid-template-columns: minmax(320px, 1fr);
+  grid-template-columns: minmax(460px, 1fr);
   grid-template-areas: "title link"
     "image paragraph";
   column-gap: 40px;
