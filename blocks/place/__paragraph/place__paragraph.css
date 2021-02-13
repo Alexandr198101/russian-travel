@@ -1,4 +1,6 @@
 .place__paragraph {
+  max-width: 484px;
+  /* width: 100%;*/
   margin: 0 auto;
   margin-bottom: 26px;
   font-size: 18px;
@@ -13,7 +15,8 @@
 
 @media screen and (max-width: 1024px) {
   .place__paragraph {
-    width: 456px;
+    max-width: 456px;
+    /* width: 100%;*/
     margin-bottom: 27px;
   }
 }
@@ -21,7 +24,8 @@
 @media screen and (max-width: 768px) {
   .place__paragraph {
     margin: 0;
-    width: 352px;
+    max-width: 352px;
+    /* width: 100%;*/
     margin-bottom: 25px;
     font-size: 16px;
 
@@ -30,7 +34,8 @@
 
 @media screen and (max-width: 320px) {
   .place__paragraph {
-    width: 288px;
+    max-width: 288px;
+    width: 100%;
     padding: 0 16px;
     margin-bottom: 25px;
   }
